@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
-    package="io.powerinside.scrollsocket"
+    package="io.github.powerinside.scrollsocket"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -19,7 +19,7 @@
         tools:ignore="UnusedAttribute"
         >
         <activity
-            android:name="io.powerinside.scrollsocket.CanvasActivity"
+            android:name="io.github.powerinside.scrollsocket.CanvasActivity"
             android:label="@string/app_name"
             android:screenOrientation="sensorLandscape" >
             <intent-filter>
@@ -28,13 +28,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="io.powerinside.scrollsocket.SettingsActivity"
+            android:name="io.github.powerinside.scrollsocket.SettingsActivity"
             android:label="@string/menu_settings"
             tools:ignore="UnusedAttribute"
             android:parentActivityName=".CanvasActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="io.powerinside.scrollsocket.CanvasActivity" />
+                android:value="io.github.powerinside.scrollsocket.CanvasActivity" />
         </activity>
     </application>
 

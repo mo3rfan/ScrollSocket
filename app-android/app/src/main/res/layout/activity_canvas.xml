@@ -12,7 +12,7 @@
 
     <view
         android:id="@+id/canvas"
-        class="io.powerinside.scrollsocket.CanvasView"
+        class="io.github.powerinside.scrollsocket.CanvasView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 

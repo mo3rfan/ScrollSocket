@@ -1,4 +1,4 @@
-package io.powerinside.scrollsocket;
+package io.github.powerinside.scrollsocket;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;

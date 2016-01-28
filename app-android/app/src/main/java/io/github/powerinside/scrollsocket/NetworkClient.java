@@ -1,4 +1,4 @@
-package io.powerinside.scrollsocket;
+package io.github.powerinside.scrollsocket;
 
 import android.content.SharedPreferences;
 import android.util.Log;
@@ -9,7 +9,7 @@ import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.concurrent.LinkedBlockingQueue;
 
-import io.powerinside.scrollsocket.NetEvent.Type;
+import io.github.powerinside.scrollsocket.NetEvent.Type;
 
 
 public class NetworkClient implements Runnable {

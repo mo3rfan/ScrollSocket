@@ -1,4 +1,4 @@
-package io.powerinside.scrollsocket;
+package io.github.powerinside.scrollsocket;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -11,7 +11,7 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 
-import io.powerinside.scrollsocket.NetEvent.Type;
+import io.github.powerinside.scrollsocket.NetEvent.Type;
 
 @SuppressLint("ViewConstructor")
 public class CanvasView extends View implements SharedPreferences.OnSharedPreferenceChangeListener {

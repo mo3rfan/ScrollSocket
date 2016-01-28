@@ -1,4 +1,4 @@
-package io.powerinside.scrollsocket;
+package io.github.powerinside.scrollsocket;
 
 import android.util.Log;
 
