@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Scrollsocket by PowerInside</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Scrollsocket</h1>
+        <p class="header">Scroll from phone.</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/PowerInside/ScrollSocket/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/PowerInside/ScrollSocket/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/PowerInside/ScrollSocket">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/PowerInside">PowerInside</a></p>
+
+
+      </header>
+      <section>
+        <h1>
+<a id="scrollsocket" class="anchor" href="#scrollsocket" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>ScrollSocket</h1>
+
+<p>ScrollSocket is an small app that sends mouse wheel (scroll) events to your computer as you move your finger over the android touchscreen. Obviparently, you need to install a driver on the computer and have it listening on UDP port 40118.</p>
+
+<p>Only linux drivers at the moment. Client app requires android 2.2 or above. Only vertical scrolling implemented for now. </p>
+
+<h1>
+<a id="installation--usage" class="anchor" href="#installation--usage" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation &amp; Usage</h1>
+
+<ol>
+<li>Run the statically linked uinput driver or build your own.</li>
+<li>Install the apk on the phone go to options and set the IP.</li>
+<li>Focus your mouse over a window that is scrollable.</li>
+<li>Go crazy with your finger.</li>
+</ol>
+
+<h3>
+<a id="inb4-doesnt-work" class="anchor" href="#inb4-doesnt-work" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>inb4 "Doesn't work"</h3>
+
+<ul>
+<li>Install uinput kernel module (modern versions of linux distros seem to have it).</li>
+<li>If you use Xorg, make sure Xorg-evdev module is loaded and configured.</li>
+<li>Config your firewall and make way for UDP port 40118.</li>
+</ul>
+
+<h1>
+<a id="todo" class="anchor" href="#todo" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>TODO</h1>
+
+<ul>
+<li>DPAD Support.</li>
+<li>Horizontal Scroll.
+
+<ul>
+<li>Lock to a single scroll axis.</li>
+</ul>
+</li>
+<li>Tilt scroll.</li>
+<li>Windows support.</li>
+<li>Sensitivity settings.</li>
+<li>Smooth scroll/Non linear scroll.</li>
+</ul>
+
+<h2>
+<a id="credits" class="anchor" href="#credits" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Credits</h2>
+
+<p>This is a completely dumbed down, less fancy modification of the <a href="https://gfxtablet.bitfire.at">GfxTablet</a> app by Ricki Hirner (also licensed under the MIT License).</p>
+
+<p>Icons generated using <a href="https://romannurik.github.io/AndroidAssetStudio/index.html">Android Asset Studio</a> / <a href="http://creativecommons.org/licenses/by/3.0/">CC BY</a></p>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
